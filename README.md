@@ -1,10 +1,10 @@
-Calorie Counter
+#Calorie Counter
 
-Overview
+#Overview
 
 The Calorie Counter is a web application designed to help users track their daily calorie intake. It enables users to set a daily calorie budget, log their food consumption and exercise activities, and calculate the remaining calories based on their budget.
 
-Features
+#Features
 
 Set Daily Calorie Budget: Input your daily calorie limit.
 Track Meals and Exercise: Add entries for breakfast, lunch, dinner, snacks, and exercise.
@@ -13,9 +13,9 @@ Calculate Remaining Calories: Compute remaining calories based on logged entries
 Clear All Entries: Reset the form to start fresh.
 Demo
 
-You can view a live demo of the application here (replace with the actual link if available).
+#You can view a live demo of the application here (replace with the actual link if available).
 
-Getting Started
+#Getting Started
 
 To run the Calorie Counter locally:
 
@@ -46,9 +46,10 @@ Results will indicate if you are in a calorie surplus or deficit and provide a s
 Clear Entries: Click "Clear" to remove all entries and reset the form.
 Styling
 
-The application uses the following styles:
+#The application uses the following styles:
 
-Color Scheme:
+#Color Scheme:
+
 Light Grey: #f5f6f7
 Dark Blue: #0a0a23
 FCC Blue: #1b1b32
@@ -62,7 +63,8 @@ Buttons: Styled with a Light Yellow background and Dark Yellow border. Text colo
 Output: Displays results with a Light Grey border and centered text. The result text color varies:
 Surplus: Light Pink
 Deficit: Light Green
-JavaScript Functionality
+
+#JavaScript Functionality
 
 addEntry(): Adds a new entry input field to the selected category.
 calculateCalories(e): Computes remaining calories based on budget and entries, and displays the result.
@@ -70,7 +72,7 @@ getCaloriesFromInputs(list): Calculates total calories from input fields and han
 clearForm(): Clears all entries and resets the form.
 Contributing
 
-Contributions are welcome! To contribute:
+#Contributions are welcome! To contribute:
 
 Fork the Repository.
 Create a Branch for your feature or fix.
