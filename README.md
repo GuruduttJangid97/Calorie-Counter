@@ -10,10 +10,6 @@ The **Calorie Counter** is a web application designed to help users track their 
 - **Calculate Remaining Calories**: Compute remaining calories based on logged entries.
 - **Clear All Entries**: Reset the form to start fresh.
 
-## Demo
-
-You can view a live demo of the application [here](#) (replace with the actual link if available).
-
 ## Getting Started
 
 To run the Calorie Counter locally:
