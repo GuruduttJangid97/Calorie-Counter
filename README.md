@@ -1,32 +1,33 @@
-#Calorie Counter
+## Overview
 
-#Overview
+The **Calorie Counter** is a web application designed to help users track their daily calorie intake. It enables users to set a daily calorie budget, log their food consumption and exercise activities, and calculate the remaining calories based on their budget.
 
-The Calorie Counter is a web application designed to help users track their daily calorie intake. It enables users to set a daily calorie budget, log their food consumption and exercise activities, and calculate the remaining calories based on their budget.
+## Features
 
-#Features
+- **Set Daily Calorie Budget**: Input your daily calorie limit.
+- **Track Meals and Exercise**: Add entries for breakfast, lunch, dinner, snacks, and exercise.
+- **Dynamic Entry Addition**: Add multiple entries for each category dynamically.
+- **Calculate Remaining Calories**: Compute remaining calories based on logged entries.
+- **Clear All Entries**: Reset the form to start fresh.
 
-Set Daily Calorie Budget: Input your daily calorie limit.
-Track Meals and Exercise: Add entries for breakfast, lunch, dinner, snacks, and exercise.
-Dynamic Entry Addition: Add multiple entries for each category dynamically.
-Calculate Remaining Calories: Compute remaining calories based on logged entries.
-Clear All Entries: Reset the form to start fresh.
-Demo
+## Demo
 
-#You can view a live demo of the application here (replace with the actual link if available).
+You can view a live demo of the application [here](#) (replace with the actual link if available).
 
-#Getting Started
+## Getting Started
 
 To run the Calorie Counter locally:
 
-Clone the Repository
-bash
-Copy code
-git clone https://github.com/yourusername/Calorie-Counter.git
-cd Calorie-Counter
-Open the Project
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/GuruduttJangid97/Calorie-Counter.git
+   cd Calorie-Counter
+
+2. **Open the Project**
 Open the index.html file in your web browser.
-Explore the Application
+
+3. **Explore the Application**
 You should see the Calorie Counter app. Use the form to set your calorie budget and log your food and exercise entries.
 Project Structure
 
@@ -46,10 +47,9 @@ Results will indicate if you are in a calorie surplus or deficit and provide a s
 Clear Entries: Click "Clear" to remove all entries and reset the form.
 Styling
 
-#The application uses the following styles:
+The application uses the following styles:
 
-#Color Scheme:
-
+Color Scheme:
 Light Grey: #f5f6f7
 Dark Blue: #0a0a23
 FCC Blue: #1b1b32
@@ -63,8 +63,7 @@ Buttons: Styled with a Light Yellow background and Dark Yellow border. Text colo
 Output: Displays results with a Light Grey border and centered text. The result text color varies:
 Surplus: Light Pink
 Deficit: Light Green
-
-#JavaScript Functionality
+JavaScript Functionality
 
 addEntry(): Adds a new entry input field to the selected category.
 calculateCalories(e): Computes remaining calories based on budget and entries, and displays the result.
@@ -72,7 +71,7 @@ getCaloriesFromInputs(list): Calculates total calories from input fields and han
 clearForm(): Clears all entries and resets the form.
 Contributing
 
-#Contributions are welcome! To contribute:
+Contributions are welcome! To contribute:
 
 Fork the Repository.
 Create a Branch for your feature or fix.
