@@ -47,23 +47,21 @@ Results will indicate if you are in a calorie surplus or deficit and provide a s
 Clear Entries: Click "Clear" to remove all entries and reset the form.
 Styling
 
+Styling
+
 The application uses the following styles:
 
 Color Scheme:
-Light Grey: #f5f6f7
-Dark Blue: #0a0a23
-FCC Blue: #1b1b32
-Light Yellow: #fecc4c
-Dark Yellow: #feac32
-Light Pink: #ffadad
-Dark Red: #850000
-Light Green: #acd157
-Body: Background color is FCC Blue, and text is Light Grey.
-Buttons: Styled with a Light Yellow background and Dark Yellow border. Text color is Dark Blue.
-Output: Displays results with a Light Grey border and centered text. The result text color varies:
-Surplus: Light Pink
-Deficit: Light Green
-JavaScript Functionality
+<ul> 
+   <li><span style="background-color: #f5f6f7; color: #000000;">Light Grey</span></li> 
+   <li><span style="background-color: #0a0a23; color: #ffffff;">Dark Blue</span></li> 
+   <li><span style="background-color: #1b1b32; color: #ffffff;">FCC Blue</span></li> 
+   <li><span style="background-color: #fecc4c; color: #000000;">Light Yellow</span></li> 
+   <li><span style="background-color: #feac32; color: #000000;">Dark Yellow</span></li> 
+   <li><span style="background-color: #ffadad; color: #000000;">Light Pink</span></li> 
+   <li><span style="background-color: #850000; color: #ffffff;">Dark Red</span></li> 
+   <li><span style="background-color: #acd157; color: #000000;">Light Green</span></li> 
+</ul>
 
 addEntry(): Adds a new entry input field to the selected category.
 calculateCalories(e): Computes remaining calories based on budget and entries, and displays the result.
